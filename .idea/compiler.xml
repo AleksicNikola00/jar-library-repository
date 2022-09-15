@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="activeMq-model" />
+        <module name="jar-library-repository" />
+        <module name="internship-activeMq-model" />
       </profile>
     </annotationProcessing>
   </component>

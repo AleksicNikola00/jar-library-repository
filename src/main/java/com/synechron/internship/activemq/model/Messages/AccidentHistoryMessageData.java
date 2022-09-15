@@ -1,4 +1,4 @@
-package com.synecrhon.internship.activemq.model.messages;
+package com.synechron.internship.activemq.model.Messages;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

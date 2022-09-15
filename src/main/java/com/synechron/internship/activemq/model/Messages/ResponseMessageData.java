@@ -1,7 +1,6 @@
-package com.synecrhon.internship.activemq.model.messages;
+package com.synechron.internship.activemq.model.Messages;
 
-;
-import com.synecrhon.internship.activemq.model.ResponseType;
+import com.synechron.internship.activemq.model.ResponseType;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

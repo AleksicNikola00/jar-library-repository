@@ -1,7 +1,7 @@
-package com.synecrhon.internship.activemq.model.messages;
+package com.synechron.internship.activemq.model.Messages;
 
-import com.synecrhon.internship.activemq.model.MessageData;
-import com.synecrhon.internship.activemq.model.MessageType;
+import com.synechron.internship.activemq.model.MessageData;
+import com.synechron.internship.activemq.model.MessageType;
 
 public class SubscriberMessageData extends MessageData {
     private Long subscriberId;
@@ -14,7 +14,7 @@ public class SubscriberMessageData extends MessageData {
         super();
     }
 
-    public SubscriberMessageData(Long subscriberId, String firstName, String lastName, String email, Boolean isDeleted, MessageType messageType) {
+    public SubscriberMessageData(Long subscriberId, String firstName, String lastName, String email, Boolean isDeleted,MessageType messageType) {
         super(messageType);
         this.subscriberId = subscriberId;
         this.firstName = firstName;

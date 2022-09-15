@@ -1,4 +1,4 @@
-package com.synecrhon.internship.activemq.model;
+package com.synechron.internship.activemq.model;
 
 public enum ResponseType {
     BAD_REQUEST,

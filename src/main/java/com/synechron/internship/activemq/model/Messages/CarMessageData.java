@@ -1,7 +1,7 @@
-package com.synecrhon.internship.activemq.model.messages;
+package com.synechron.internship.activemq.model.Messages;
 
-import com.synecrhon.internship.activemq.model.MessageData;
-import com.synecrhon.internship.activemq.model.MessageType;
+import com.synechron.internship.activemq.model.MessageData;
+import com.synechron.internship.activemq.model.MessageType;
 
 
 public class CarMessageData extends MessageData {
